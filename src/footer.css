@@ -1,0 +1,31 @@
+.footer1{
+    background-color: #071841;
+    color: aliceblue;
+}
+.logoheading{
+    color: #fecc00;
+    font-size: 70px;
+    
+}
+.logoheading1{
+    color: #fecc00;
+    font-size: 14px;
+    margin-top: -18px;
+    
+}
+.footerheading{
+    color: #fecc00;
+}
+.lastline{
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .row{
+        justify-content: center;
+    }
+    .column3{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
