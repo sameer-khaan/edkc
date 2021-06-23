@@ -1,19 +1,28 @@
 .container-fluid{
     padding: 0 20px;
+    overflow: hidden;
+    
 }
+
 
 .btn-get-started{
     font-weight: 500;
     font-size: 14px;
+    background-color: transparent !important;
     letter-spacing: 1px;
     display: inline-block;
     padding: 10px 50px;
     border-radius: 50px;
     transition: 0.2s;
     text-decoration: none;
+    margin: 0;
     color: #002378;
     border:2px solid #002378;
-}    
+}  
+.cta{
+    background-color: transparent !important;
+
+}  
 .heading{
     border-left:5px solid #fecc00 ;
     padding-left: 16px;
@@ -23,6 +32,7 @@
 .heading2{
     text-align: center;
     position: relative;
+    
     margin-top: 40px;
     padding: 20px 0;
     margin-right: 0px;
@@ -42,6 +52,7 @@
 .colo{
     margin-top: 80px;
     margin-bottom: 60px;
+    background: white;
 }
 .colo p{
     padding-left: 20px;
@@ -52,8 +63,16 @@
 }
 
 .cards1{
-    background-color: #1c2335;
-    color: aliceblue;
+    background-color: #1c2335 !important;
+    color: white !important;
+}
+.color2{
+    color: white !important;
+}
+.row3{
+    background: white;
+    background-image: none;
+    margin-bottom: 50px;
 }
 .card{
     background-color: #2d374f;
@@ -142,7 +161,8 @@
     margin-left: 160px;
 }
 .btnimp{
-    padding-top: 50px;
+    padding: 0px;
+    margin-top: 0px;
     margin-left: -300px;
 }
 .infobox h6{
@@ -164,6 +184,10 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
+}
+.img3{
+    width: 100px;
+    height: 100px;
 }
 .faq{
     align-items: center;

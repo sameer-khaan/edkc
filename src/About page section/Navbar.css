@@ -1,0 +1,61 @@
+.nav-link{
+    margin: 0 20px;
+    color: #002378 !important;
+    align-items: center;
+    
+}
+.back{
+    background-image: url("../images/Vector\ 26.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-collapse{
+    align-items: center;
+    background-color: transparent !important;
+    text-align: center;
+}
+.LOGO h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+.LOGO p{
+    font-size: 10px;
+}
+.LOGO{
+    line-height: 0px;
+    color: #002378;
+}
+.btn{
+    border-color: #002378;
+    color:#002378;
+    border-width: 1px;
+    padding: 6px 44px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.collapse{
+    background-color:transparent !important;
+}
+
+.container-fluid{
+padding: 0px;
+background-color: transparent;
+}
+@media screen and (max-width: 1440px) {
+    .container-fluid{
+        padding: 0 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container-fluid{
+        padding: 0 0px;
+    }
+    .back{
+        background-image: url("../images/Vector\ 26.svg");
+
+        background-position: top ;
+    }
+}

@@ -1,0 +1,24 @@
+.heading2{
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    color: #1f3059;
+    font-size:40px;
+    padding: 20px 0;
+    margin-right: 0px;
+    
+}
+.heading2::after{
+   content: '';
+   height: 5px;
+   width: 5%;
+   position:absolute;
+   background-color: #fecc00;
+   left: 0;
+   bottom: 0;
+   left: 47%;
+   
+}
+.box5{
+    height: 400px;
+}

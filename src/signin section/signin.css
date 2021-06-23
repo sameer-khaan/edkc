@@ -1,0 +1,83 @@
+.heading2{
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    color: #1f3059;    
+    padding: 10px 0;
+    margin-right: 0px;
+    
+}
+.heading2::after{
+   content: '';
+   height: 5px;
+   width: 5%;
+   position:absolute;
+   background-color: #fecc00;
+   left: 0;
+   bottom: 0;
+   left: 47%;
+   
+}
+.boxofsign{
+    margin-bottom: 100px;
+
+}
+.btn{
+    width: 100%;
+    height: 45px;
+}
+.btn1{
+    background-color: #2174ee;
+    color: white;
+}
+.text1{
+     width: 100%;
+     text-align: center;
+}
+.nav-link{
+    color: black;
+    text-decoration: none !important;
+}
+.link1{
+    padding-top: 40px;
+    margin-bottom: 20px !important;
+}
+.img1{
+    width: 320px;
+    height: 264px;
+    margin-top: 150px;
+    
+}
+.box5{
+   
+    border-radius: 0;
+    background-color: white;
+    border-color:white ;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);   
+    border-radius: 10px;
+    border-style: solid;
+    height: 517px;
+
+}
+.signin{
+    align-content: center;
+    text-align: center;
+    color: #1f3059;
+}
+.form1{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+@media screen and (max-width: 1020px) {
+    .box4{
+        flex-direction: column;
+    }
+
+    .img1{
+        width: 320px;
+        height: 264px;
+        margin-top: 30px;
+        
+    }
+}

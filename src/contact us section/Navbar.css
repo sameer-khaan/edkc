@@ -4,8 +4,18 @@
     align-items: center;
     
 }
+
+.back{
+    background-image: url("../images/Vector\ 26.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.navbar{
+    background-color: transparent !important;
+}
 .navbar-collapse{
     align-items: center;
+    background-color: transparent !important;
     text-align: center;
 }
 .LOGO h1{
@@ -25,19 +35,28 @@
     border-width: 1px;
     padding: 6px 44px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: transparent;
+}
+.collapse{
+    background-color:transparent !important;
 }
 
 .container-fluid{
-padding: 0 00px;
+padding: 0px;
+background-color: transparent;
 }
 @media screen and (max-width: 1440px) {
     .container-fluid{
-        padding: 0 00px;
+        padding: 0 0px;
     }
 }
 @media screen and (max-width: 768px) {
     .container-fluid{
         padding: 0 0px;
+    }
+    .back{
+        background-image: url("../images/Vector\ 26.svg");
+
+        background-position: top ;
     }
 }
