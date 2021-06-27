@@ -1,5 +1,6 @@
 import React from 'react';
 import './homesection.css';
+import {NavLink} from 'react-router-dom';
 import sideimg from '../images/dogs 1.svg'
 const Home=()=> {
     return (
@@ -17,9 +18,10 @@ const Home=()=> {
                                     <a href="" className="btn-get-started">
                                         Main CTA
                                     </a>
+                                    
                                 </div>
                             </div>
-                            <div className=" col-md-12 col-lg-6 order-1 pd-5 order-lg-2 header-img align-items-end  ">
+                            <div className=" col-md-12 col-lg-6 order-1 order-lg-2 header-img align-items-end  ">
                                 <img src={sideimg} alt="sideimg" className=""/>
 
                             </div>

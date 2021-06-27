@@ -80,7 +80,27 @@
     align-items: center !important;
     align-content: center !important;
     padding: 12px 0;
+    height: 350px;
     border-radius: 6px;
+}
+.card2{
+    background-color: #2d374f;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    padding: 12px 0;
+    height: 350px;
+    border-radius: 6px;
+}
+.card3{
+    background-image: url("../images/Group\ 6.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.card4{
+    background-image: url("../images/Vector\ 28.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 .card p{
     padding: 10px 0px;

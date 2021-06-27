@@ -1,8 +1,10 @@
 import React  from 'react';
 import {NavLink} from 'react-router-dom';
 import GiSmartphone from '../images/mobile.svg';
+import img32 from '../images/Vector (1).svg'
 import "./Navbar.css";
-import Section1 from './Signin';
+import "./login.css";
+import Section1 from './addlitter';
 const Navbar=()=>{
     return(
         <>
@@ -15,12 +17,12 @@ const Navbar=()=>{
              <p>European Dog Kennel Club </p>
              </NavLink>
            </div>                   
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav ml-auto">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav ml-auto">
     <li className="nav-item ">
      <NavLink className="nav-link" to="/">
        <img src={GiSmartphone} alt="number" className="phoneSVG"/>
@@ -38,8 +40,8 @@ const Navbar=()=>{
         <NavLink className="nav-link " to="/Contactus">Contact</NavLink>
       </li>
     </ul>
-    <form className="form my-lg-0">
-    <NavLink className="btn" to="/Signin"> Login</NavLink>
+    <form className="form my-2 my-lg-0">
+    <NavLink className="btn " to="/Signin"><img src = {img32} alt="vector2"/> My account</NavLink>
     </form>
   </div>
 </nav>

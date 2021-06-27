@@ -1,0 +1,39 @@
+.box6{
+    height: 360px !important;
+}
+.box6 h5{
+    color: #002378;
+}
+.box6 p{
+    color: #002378;
+}
+.btn-login{
+    border-radius: 5px !important;
+    text-align: left !important;
+    align-content: flex-start !important;
+    align-content: flex-start;
+
+}
+.img8{
+    height: 70px !important;
+    width: 70px;
+    
+}
+.row4{
+    background: rgba(232, 233, 236, 0.2);
+    /* #C5CDDE */    
+    border: 1px solid #C5CDDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+}
+.btn-add{
+    border: 2px dashed #002378;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #002378;
+}
+.btn-arrow{
+    background-color: transparent;
+    border: none;
+}

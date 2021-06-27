@@ -1,8 +1,9 @@
 import React  from 'react';
 import {NavLink} from 'react-router-dom';
 import GiSmartphone from '../images/mobile.svg';
+import img32 from '../images/Vector (1).svg'
 import "./Navbar.css";
-import Section1 from './Signin';
+import Section1 from './login';
 const Navbar=()=>{
     return(
         <>
@@ -38,8 +39,8 @@ const Navbar=()=>{
         <NavLink className="nav-link " to="/Contactus">Contact</NavLink>
       </li>
     </ul>
-    <form className="form my-lg-0">
-    <NavLink className="btn" to="/Signin"> Login</NavLink>
+    <form className="form my-2 my-lg-0">
+    <NavLink className="btn " to="/Signin"><img src = {img32} alt="vector2"/> My account</NavLink>
     </form>
   </div>
 </nav>

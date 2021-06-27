@@ -1,16 +1,16 @@
 import React  from 'react';
 import {NavLink} from 'react-router-dom';
-import { GiSmartphone } from 'react-icons/gi';
+import GiSmartphone from '../images/mobile.svg';
 import "./Navbar.css";
 import Section1 from './section1';
 const Navbar=()=>{
     return(
         <>
         <div className="container-fluid  back">
-        <div className="col-lg-12  ">
+        <div className="col-lg-12  col-12 ">
         <nav class="navbar navbar-expand-lg navbar-light ">
            <div className="d-flex LOGO flex-column">
-           <NavLink className="nav-link mx-0" to = "/">
+           <NavLink className="nav-link " to = "/">
              <h1> EDKC</h1>
              <p>European Dog Kennel Club </p>
              </NavLink>
@@ -21,8 +21,11 @@ const Navbar=()=>{
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
-      <li className="nav-item ">
-     <NavLink className="nav-link" to="/"><GiSmartphone className=''/>0123456789 </NavLink>
+    <li className="nav-item ">
+     <NavLink className="nav-link" to="/">
+       <img src={GiSmartphone} alt="number" className="phoneSVG"/>
+       0123456789 
+       </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/Signin">Register Dogs</NavLink>
@@ -36,7 +39,7 @@ const Navbar=()=>{
       </li>
     </ul>
     <form className="form my-2 my-lg-0">
-      <NavLink className="btn my-2 my-sm-0" to="/Signin"> Login</NavLink>
+      <NavLink className="btn my-0 my-sm-0" to="/Signin"> Login</NavLink>
       
     </form>
   </div>

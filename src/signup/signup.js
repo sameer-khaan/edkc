@@ -3,14 +3,16 @@ import './signin.css';
 import img from '../images/Mask Group.svg';
 import { NavLink } from 'react-router-dom';
 import Fb1  from '../images/akar-icons_facebook-fill.svg';
-const Signin=()=> {
+
+
+const Signup=()=> {
     return (
         <>
             <section id="header" className=" ">
               <div className="container-fluid  ">
                 <div className="row ">
                     <div className="col-lg-12  col-md-12 ">
-                        <h4 className="heading2">Welcome back</h4>
+                        <h4 className="heading2">Join us, it's free</h4>
                         <br/>
                         <br/>
                         <div className="row box4">
@@ -19,30 +21,32 @@ const Signin=()=> {
                             </div>
                             <div className="col-lg-6 col-md-10 mx-auto  mx-md-auto mx-lg-0 col-sm-10 col-10 justify-content-center order-1 order-lg-2 ">
                                 <div className="box5 mx-auto boxofsign">
-                                <h5 className="pt-3 signin">Sign in</h5>
+                                <h5 className="pt-3 signin">Sign up</h5>
                                 <div className="row  ">
                                     <div className="col-xl-8 col-md-10 col-11 mx-auto">
                                     <form className="mx-auto ">
                                         <div className="form-group   ">
                                             
-                                            <input type="email" className="form-control form1 pt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                            <input type="email" className="form-control form1 pt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address"/>
                                             
                                         </div>
                                         <div className="form-group">
                                             
-                                            <input type="password" class="form-control form1 pt-4" id="exampleInputPassword1" placeholder="Password"/>
+                                            <input type="password" class="form-control form1 pt-4" id="exampleInputPassword1" placeholder="Create Password"/>
                                         </div>
                                         <div className="form-check">
-                                            <NavLink className="nev-link" to=''>Forget password?</NavLink>
+                                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                                            <label className="form-check-label" for="exampleCheck1">Lorem ipsum dolor</label>
+                                            
                                             
                                         </div>
                                         <br/>
-                                        <NavLink className="btn" to='./login'> Sign in</NavLink>
+                                        <NavLink className="btn" to=''> Create account</NavLink>
                                         <br/><br/>
                                         <p className="text1">or</p>
                                         <NavLink className="btn btn1" to=''> <img src = {Fb1} alt="logo"/> Continue with Facebook</NavLink>
                                         
-                                        <NavLink className="nav-link text1 link1" to='./Signup'> Don't have an account yet?</NavLink>
+                                        <NavLink className="nav-link text1 link1" to='./signin'> Already have account?</NavLink>
                                     
                                     
                                 </form>
@@ -61,4 +65,4 @@ const Signin=()=> {
         </>
     );
 };
-export default Signin;
+export default Signup;

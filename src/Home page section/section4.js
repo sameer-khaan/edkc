@@ -11,7 +11,7 @@ const Home=()=> {
         <>
             <section id="header" className=" align-items-center justify-content-center mx-auto ">
               <div className="container-fluid  cards2">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center card4">
                     <div className="col-lg-10  col-md-10  mx-auto">
                     <h2 className="heading3  mx-auto">Register a dog</h2>
                         <div className="row row2 justify-content-center ">

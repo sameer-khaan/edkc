@@ -2,7 +2,7 @@ import React  from 'react';
 import {NavLink} from 'react-router-dom';
 import GiSmartphone from '../images/mobile.svg';
 import "./Navbar.css";
-import Section1 from './Signin';
+import Section1 from './signup';
 const Navbar=()=>{
     return(
         <>

@@ -1,6 +1,6 @@
 import React  from 'react';
 import {NavLink} from 'react-router-dom';
-import { GiSmartphone } from 'react-icons/gi';
+import GiSmartphone from '../images/mobile.svg';
 import "./Navbar.css";
 import Section1 from './aboutsection';
 const Navbar=()=>{
@@ -22,7 +22,10 @@ const Navbar=()=>{
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item ">
-     <NavLink className="nav-link" to="/"><GiSmartphone className=''/>0123456789 </NavLink>
+     <NavLink className="nav-link" to="/">
+       <img src={GiSmartphone} alt="number" className="phoneSVG"/>
+       0123456789 
+       </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/Signin">Register Dogs</NavLink>
