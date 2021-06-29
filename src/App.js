@@ -1,31 +1,38 @@
 import React from "react";
+import {Switch, Route} from "react-router-dom";
+import Home from './components/home/';
+import About from './components/about/';
+import Contact from './components/contact/';
+import Signin from './components/signin/';
+import Signup from './components/signup/';
+import Login from './components/account/';
+import Adddog from './components/dogs/';
+import Addlitter from './components/litters/';
+import Forgetpassword from './components/forgetpassword/';
+import Navbar from './assets/Navbar';
+import Footer from './assets/footer';
 import "./App.css";
-import {Switch,Route ,Redirect} from "react-router-dom";
-import Home from './home';
-import About from './about';
-import Contact from './contact';
-import Signin from './signin';
-import Signup from './signup';
-import Login from './login';
-import Adddog from './adddog';
-import Addlitter from './addlitter';
-import Forgetpassword from './forgetpassword';
-import Footer from './footer';
+import './assets/style.css';
 
 function App() {
   return (
-        <>        
-          <Switch>
-           <Route  exact path='/'  component={Home}/>
-           <Route exact path='/About'  component={About}/>
-           <Route exact path='/Contact'  component={Contact}/>
-           <Route exact path='/Signin'  component={Signin}/>    
-           <Route exact path='/Signup'  component={Signup}/> 
-           <Route exact path='/Login'  component={Login}/> 
-           <Route exact path='/Adddog'  component={Adddog}/>
-           <Route exact path='/Addlitter'  component={Addlitter}/> 
-           <Route exact path='/Forgetpassword'  component={Forgetpassword}/> 
-          </Switch>
+        <>
+          <div className="container-fluid back">
+            <div className="col-lg-12 col-12 back1">
+            <Navbar/>
+            <Switch>
+              <Route  exact path='/'  component={Home}/>
+              <Route exact path='/about'  component={About}/>
+              <Route exact path='/contact'  component={Contact}/>
+              <Route exact path='/signin'  component={Signin}/>    
+              <Route exact path='/signup'  component={Signup}/> 
+              <Route exact path='/login'  component={Login}/> 
+              <Route exact path='/adddog'  component={Adddog}/>
+              <Route exact path='/addlitter'  component={Addlitter}/> 
+              <Route exact path='/forgetpassword'  component={Forgetpassword}/>
+            </Switch>
+            </div>
+          </div>
           <Footer/>
         </>
   );
