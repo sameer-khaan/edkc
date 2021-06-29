@@ -1,14 +1,10 @@
 import React from 'react';
-
-import HeroSection from './Login section/adddognav';
-
+import Header from './Account/adddognav';
 
 const Adddog=()=> {
     return (
         <>
-        <HeroSection />
-       
-          
+        <Header />
         </>
     );
 };

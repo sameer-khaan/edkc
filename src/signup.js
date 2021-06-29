@@ -1,14 +1,10 @@
 import React from 'react';
-
-import HeroSection from './signup/Navbar';
-
+import Header from './Signup/Header';
 
 const Signup=()=> {
     return (
         <>
-        <HeroSection />
-       
-          
+        <Header />
         </>
     );
 };

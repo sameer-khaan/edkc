@@ -1,14 +1,10 @@
 import React from 'react';
-
-import HeroSection from './Login section/addlitternav';
-
+import Header from './Account/addlitternav';
 
 const Addlitter=()=> {
     return (
         <>
-        <HeroSection />
-       
-          
+        <Header />
         </>
     );
 };

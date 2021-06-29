@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Account/Header';
+import Header from './About/Header';
 
-const Login=()=> {
+const About=()=> {
     return (
         <>
         <Header />
@@ -9,4 +9,4 @@ const Login=()=> {
     );
 };
 
-export default Login;
+export default About;
