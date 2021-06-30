@@ -22,10 +22,10 @@ const Forgetpassword=()=> {
                                     <div className="col-xl-8 col-md-10 col-11 mx-auto">
                                     <form className="mx-auto ">
                                         <div className="form-group">
-                                            <input type="email" className="form-control form1 pt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                            <input type="email" className="form-control form1 pt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address"/>
                                         </div>
                                         <br/>
-                                        <NavLink className="btn" to='./login'> Submit</NavLink>
+                                        <NavLink className="btn" to='./dashboard'> Submit</NavLink>
                                         <NavLink className="nav-link text1 link1 m-0" to='./signin'> Remember Password?</NavLink>
                                 </form>
                                 </div>

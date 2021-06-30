@@ -61,7 +61,7 @@ const Home=()=> {
                                     </div>
                                 </div>
                                 <div className="btnimp">
-                                    <NavLink className="btn-get-started" to='./adddog'> Register a dog</NavLink>
+                                    <NavLink className="btn-get-started" to='./dogs'> Register a dog</NavLink>
                                 </div>
                             </div>
                         </div>

@@ -23,19 +23,19 @@ const Signin=()=> {
                                     <div className="col-xl-8 col-md-10 col-11 mx-auto">
                                     <form className="mx-auto ">
                                         <div className="form-group">
-                                            <input type="email" className="form-control form1 pt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
+                                            <input type="email" className="form-control form1 pt-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
                                         </div>
                                         <div className="form-group">
-                                            <input type="password" class="form-control form1 pt-4" id="exampleInputPassword1" placeholder="Password"/>
+                                            <input type="password" className="form-control form1 pt-4" id="exampleInputPassword1" placeholder="Password"/>
                                         </div>
                                         <div className="form-check">
                                             <NavLink className="nev-link" to='./forgetpassword'>Forget password?</NavLink>
                                         </div>
                                         <br/>
-                                        <NavLink className="btn" to='./login'> Sign in</NavLink>
+                                        <NavLink className="btn" to='./dashboard'> Sign in</NavLink>
                                         <br/><br/>
                                         <p className="text1">or</p>
-                                        <NavLink className="btn btn_fb" to='./login'> <img src = {Fb1} alt="logo"/> Continue with Facebook</NavLink>
+                                        <NavLink className="btn btn_fb" to='./dashboard'> <img src = {Fb1} alt="logo"/> Continue with Facebook</NavLink>
                                         <NavLink className="nav-link text1 link1 m-0" to='./signup'> Don't have an account yet?</NavLink>
                                 </form>
                                 </div>

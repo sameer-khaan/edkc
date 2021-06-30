@@ -40,7 +40,7 @@
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);   
     border-radius: 10px;
     border-style: solid;
-    min-height: 510px;
+    min-height: 400px;
     padding: 20px 5px;
 }
 .box8{
@@ -299,7 +299,7 @@ top: 2217px;
 }
 
 .box6{
-    height: 360px !important;
+    height: fit-content;
     padding: 15px;
 }
 .box6 h5{
@@ -373,6 +373,9 @@ top: 2217px;
     .box{
         justify-content:flex-start;
         margin-left: 0px;
+    }
+    .box6{
+        min-height: auto;
     }
     .arrowcol, .arrowcol2{
         padding: 30px 0px 0px;
