@@ -1,8 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import rect1 from '../../images/Rectangle 26.svg';
-import rect2 from '../../images/Group.svg';
-import rect3 from '../../images/Group 2.svg';
+import rect1 from '../../images/register-dogs.svg';
+import rect2 from '../../images/register-litters.svg';
+import rect3 from '../../images/register-kennel.svg';
+import rect4 from '../../images/3-gen-pedigree.svg';
+import rect5 from '../../images/certificate.svg';
+import rect6 from '../../images/all-dogs.svg';
 
 const Home=()=> {
     return (
@@ -18,7 +21,7 @@ const Home=()=> {
                                     
                                     <div className="card-body    ">
                                         <img src={rect1} alt="sideimg" className=""/>
-                                        <h5 className="card-title">Anybody can bacome a member</h5>
+                                        <h5 className="card-title">Register dogs</h5>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         
                                     </div>
@@ -27,8 +30,8 @@ const Home=()=> {
                             <div className=" col-lg-4 col-md-8 col-10 cardcol">
                                 <div className="card" >                                    
                                     <div className="card-body mx-auto">
-                                        <img src={rect3} alt="sideimg" className=""/>
-                                        <h5 className="card-title">there 3 generation of pedigrees</h5>
+                                        <img src={rect2} alt="sideimg" className=""/>
+                                        <h5 className="card-title">Register litters</h5>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         
                                     </div>
@@ -38,15 +41,13 @@ const Home=()=> {
                                 <div className="card" >
                                     
                                     <div className="card-body">
-                                        <img src={rect2} alt="sideimg" className=""/>
-                                        <h5 className="card-title">We can provide new pedigrees</h5>
+                                        <img src={rect3} alt="sideimg" className=""/>
+                                        <h5 className="card-title">Register a kennel</h5>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         
                                     </div>
                                 </div>
                             </div>
-                         
-                        
                         </div>
                         <br/>
 
@@ -55,8 +56,8 @@ const Home=()=> {
                                 <div className="card " >
                                     
                                     <div className="card-body    ">
-                                        <img src={rect1} alt="sideimg" className=""/>
-                                        <h5 className="card-title">All dogs are accepted</h5>
+                                        <img src={rect4} alt="sideimg" className=""/>
+                                        <h5 className="card-title">3 generation and new pedigrees</h5>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         
                                     </div>
@@ -65,7 +66,7 @@ const Home=()=> {
                             <div className=" col-lg-4 col-md-8 col-10 cardcol">
                                 <div className="card" >                                    
                                     <div className="card-body mx-auto">
-                                        <img src={rect1} alt="sideimg" className=""/>
+                                        <img src={rect5} alt="sideimg" className=""/>
                                         <h5 className="card-title">Litter certificates</h5>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         
@@ -76,15 +77,13 @@ const Home=()=> {
                                 <div className="card" >
                                     
                                     <div className="card-body">
-                                        <img src={rect1} alt="sideimg" className=""/>
-                                        <h5 className="card-title">Lorem ipsum dolor sit </h5>
+                                        <img src={rect6} alt="sideimg" className=""/>
+                                        <h5 className="card-title">All dogs accepted</h5>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         
                                     </div>
                                 </div>
                             </div>
-                         
-                        
                         </div>      
                         <div className="mt-5 ">
                             <NavLink className="btn-aboutus text-white" to='./about'> About us</NavLink>

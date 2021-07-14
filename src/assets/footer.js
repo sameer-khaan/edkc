@@ -55,7 +55,7 @@ const Footer=()=> {
                                 <p>Register address: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                             </div>  
                             <div className="col-12 col-lg-2 lastline column3">
-                                <p>Website by EDKC</p>
+                                <p>Website by EWDS</p>
                             </div>                          
                         </div>
                     </div>
