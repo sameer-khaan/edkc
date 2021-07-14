@@ -1,0 +1,118 @@
+.nav-link{
+    margin: 0 20px;
+    color: #002378 !important;
+    align-items: center; 
+}
+.back{
+    background-image: url("../images/Vector\ 26.svg");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-position:  top right;
+}
+.back1{
+    background-image: url("../images/Vector\ 27.svg");
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-position: top right;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-collapse{
+    align-items: center;
+    background-color: transparent !important;
+    text-align: center;
+}
+.LOGO h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+.LOGO p{
+    font-size: 10px;
+}
+.LOGO{
+    line-height: 0px;
+    color: #002378;
+}
+.btn{
+    border-color: #002378;
+    color:#002378;
+    border-width: 1px;
+    padding: 7px 40px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.collapse{
+    background-color:transparent !important;
+}
+.container-fluid{
+    background-color: transparent;
+}
+
+.navbar-toggler{
+    padding: 0;
+    border: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover{
+    outline: none;
+}
+
+.burgerMenu{
+    display:flex;
+    flex-direction:column;
+    width:42px;
+    cursor:pointer;
+}
+
+.burgerMenu span{
+    background: #0a3078;
+    border-radius: 10px;
+    height: 4px;
+    margin: 3px 0;
+    transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+  
+.burgerMenu span:nth-of-type(1){
+    width:50%;
+}
+
+.burgerMenu span:nth-of-type(2){
+    width:100%;
+}
+
+.burgerMenu span:nth-of-type(3){
+    width:75%;
+}
+
+.burgerMenu input[type="checkbox"]{
+    display:none;
+}
+  
+.burgerMenu input[type="checkbox"]:checked ~ span:nth-of-type(1){
+    transform-origin: bottom;
+    width: 40%;
+    transform: rotatez(45deg) translate(6px,3px);
+}
+
+.burgerMenu input[type="checkbox"]:checked ~ span:nth-of-type(2){
+    transform-origin: top;
+    width: 78%;
+    transform: rotatez(-45deg) translate(-3px,1px);
+}
+
+.burgerMenu input[type="checkbox"]:checked ~ span:nth-of-type(3){
+    transform-origin: bottom;
+    width: 40%;
+    transform: rotatez(45deg) translate(8px,-11px);
+}
+
+@media screen and (max-width: 768px) {
+    .back{
+        background-image: url("../images/Vector\ 26.svg");
+        background-repeat: no-repeat;
+        background-position: top ;
+    }
+}

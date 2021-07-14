@@ -19,6 +19,16 @@
 .lastline{
     text-decoration: underline;
 }
+@media screen and (max-width: 990px) {
+    .row{
+        justify-content: center;
+    }
+    .column3{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 768px) {
     .row{
         justify-content: center;
