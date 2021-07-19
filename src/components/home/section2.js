@@ -17,9 +17,8 @@ const Home=()=> {
                             </div>
                             
                             <div className="col-md-10   col-lg-6 pl-lg-4 pl-3 d-flex justify-content-center flex-column ">
-                            <h4 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
+                            <h4 className="heading4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-
                             </div>
                         </div>
                     </div>

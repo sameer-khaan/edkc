@@ -87,6 +87,7 @@
     margin-top: 60px;
     padding: 20px 0;
     margin-bottom: 40px;
+    color: #1F3059;
     
 }
 .heading2::after{
@@ -98,6 +99,9 @@
    left: 0;
    bottom: 0;
    left: 45%;
+}
+.heading4 {
+    color: #002378;
 }
 .colo{
     margin-top: 80px;
@@ -206,7 +210,7 @@ top: 2217px;
     padding: 20px 0;
     margin-right: 0px;
     text-decoration: none ;
-    
+    color: #1f3059;
 }
 .heading3::after{
    content: '';
@@ -272,10 +276,8 @@ top: 2217px;
     box-shadow: 0px 0px 40px rgb(0 0 0 / 12%);
     border-radius: 10px;
 }
-.img3{
-    width: 100px;
-    height: 100px;
-    
+.register_icon{
+    width: 80px;
 }
 .faq{
     align-items: center;

@@ -15,7 +15,7 @@ const Home=()=> {
                 <div className="row">
                     <div className="col-lg-10  col-md-9 col-lg-10  mx-auto">
                     <h2 className="heading2 color2">What do we do?</h2>
-                        <div className="row justify-content-center ">
+                        <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-8 col-10 cardcol">
                                 <div className="card " >
                                     
@@ -49,9 +49,10 @@ const Home=()=> {
                                 </div>
                             </div>
                         </div>
+
                         <br/>
 
-                        <div className="row justify-content-center row1">
+                        <div className="row justify-content-center">
                             <div className="col-lg-4 col-md-8 col-10 cardcol">
                                 <div className="card " >
                                     

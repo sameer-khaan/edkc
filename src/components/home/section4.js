@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import rect from '../../images/Vector.svg';
-import rect1 from '../../images/Rectangle 32.svg';
 import rect2 from '../../images/Group 3.svg';
 import rect3 from '../../images/Mask Group.svg';
-import rect4 from '../../images/Rectangle 34.svg';
+import icon_signup from '../../images/sign-up.svg';
+import icon_dogs from '../../images/dogs-register.svg';
+import icon_documents from '../../images/get-documents.svg';
 
 const Home=()=> {
     return (
@@ -15,7 +16,7 @@ const Home=()=> {
                     <div className="col-lg-10  col-md-10  mx-auto">
                         <div className="row">
                             <div className="ml-lg-5 pl-lg-5 col-lg-6 col-md-8 col-10 order-2 order-lg-1 text-center ">
-                                <h2 className="heading3 mx-auto mb-4">Register a dog</h2>
+                                <h2 className="heading3 heading4 mx-auto mb-4">Register a dog</h2>
                             </div>
                         </div>
 
@@ -25,9 +26,9 @@ const Home=()=> {
                             </div>
                             
                             <div className=" col-lg-6 col-md-8 col-10 coltext d-flex order-1 order-lg-2">
-                                <img src={rect1} alt="sideimg" className=""/>
+                                <img src={icon_signup} alt="sideimg" className=""/>
                                 <div className="d-flex flex-column text">
-                                    <h4>Sign up to EDKC for free</h4>
+                                    <h4 className="heading4">Sign up to EDKC for free</h4>
                                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
@@ -35,10 +36,9 @@ const Home=()=> {
 
                         <div className="row  row2">
                             <div className="col-lg-6 col-md-8 col-10  d-flex order-1 order-lg-1 center-order">
-                            <img src={rect1} alt="sideimg" className=""/>
+                            <img src={icon_dogs} alt="sideimg" className="register_icon"/>
                                 <div className="d-flex flex-column text">
-                                     
-                                    <h4>Register dogs and litters</h4>
+                                    <h4 className="heading4">Register dogs and litters</h4>
                                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
@@ -54,9 +54,9 @@ const Home=()=> {
                            
                             <div className="col-lg-6 col-md-8 col-10 order-1 order-lg-2 ">
                                 <div className="d-flex">
-                                    <img src={rect4} alt="sideimg" className="img3"/>
+                                    <img src={icon_documents} alt="sideimg" className="register_icon"/>
                                     <div className="d-flex flex-column text">                                     
-                                        <h4>Receive your documents </h4>
+                                        <h4 className="heading4">Receive your documents </h4>
                                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
                                 </div>
